@@ -1,0 +1,336 @@
+.menu{
+    background-color: black;
+    border-radius: 10px;
+    position: fixed;
+    width: 99%;
+    opacity: 0.8;
+}    
+.contenu{
+    display: flex;
+    flex-direction: row;
+}
+a{
+    color: rgb(199, 130, 3);
+    font-size: 200%;
+    font-family: serif;
+    text-decoration: none;
+    padding-left: 3%;
+}
+.acceuil{
+    margin-left: 66%;
+}
+a:hover{
+    color: white;
+}
+img{
+    width: 100%;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.container div{
+    font-size: 200%;
+    font-family: serif;
+    padding:50px;
+    height: 255vh;
+}
+#center{
+    flex-basis: 60vw;
+}
+#right{
+    flex-basis:20vw;
+}
+#left{
+flex-basis:20vw;
+}
+#texte1{
+    font-size: 52%;
+    font-family: serif;
+    background-color: rgba(238, 235, 235, 0.377);
+    border-radius: 5px;
+}
+.Bienvenue{
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(199, 130, 3);
+    padding-left: 10%;
+}
+#texte2{
+    font-size: 52%;
+    font-family: serif;
+    background-color:  rgba(238, 235, 235, 0.377);
+    border-radius: 5px;
+}
+.Nouveauté{
+    font-size:100% ;
+    font-family: Arial, Helvetica, sans-serif;
+    color:  rgb(199, 130, 3);
+    padding-left: 35%;
+}
+.Accessoire{
+    font-size: 100%;
+    font-family:Arial, Helvetica, sans-serif ;
+    color:  rgb(199, 130, 3);
+    padding-left: 10%;
+}
+#texte3{
+    font-size: 52%;
+    font-family:serif;
+    background-color:   rgba(238, 235, 235, 0.377);
+     border-radius: 5px;
+}
+#texte4{
+    font-size: 52%;
+    font-family:serif;
+    background-color:   rgba(238, 235, 235, 0.377);
+     border-radius: 5px;
+}
+#sary1{
+    border-radius: 10px;
+}
+#sary2{
+    border-radius: 10px;
+}
+#sary3{
+    border-radius: 10px;
+}
+.text1{
+    font-size: 52%;
+    font-family: serif;
+    background-color: rgba(238, 235, 235, 0.377);
+    border-radius: 5px;
+}
+.cafer{
+    height: 40vh;
+    width: 30vw;
+    border: solid 3px rgb(199, 130, 3);
+    animation-name: cafer;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    margin-left: 15%;
+    border-radius: 10px;
+}
+@keyframes cafer{
+    0%{
+        background-image: url(cafer1.JPG);
+        background-size: cover;
+    }
+    50%{
+        background-image: url(cafer2.JPG);
+        background-size: cover;
+    }
+   
+    100%{
+        background-image: url(cafer4.JPG);
+        background-size: cover;
+    }
+    
+    }
+.text2{
+    font-size: 52%;
+    font-family: serif;
+    background-color:  rgba(238, 235, 235, 0.377);
+    border-radius: 5px;
+}
+.text3{
+    font-size: 52%;
+    font-family: serif;
+    background-color: rgba(238, 235, 235, 0.377);
+    border-radius: 5px;
+}
+.scrambler{
+    height: 40vh;
+    width: 30vw;
+    border: solid 3px rgb(199, 130, 3);
+    animation-name: change;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    margin-left: 15%;
+    border-radius: 10px;
+}
+@keyframes change{
+0%{
+    background-image: url(scrambler1.jpg);
+    background-size: cover;
+}
+33.33%{
+    background-image: url(scrambler2.jpg);
+    background-size: cover;
+}
+83.33%{
+    background-image: url(scrambler3.jpg);
+    background-size: cover;
+}
+100%{
+    background-image: url(scrambler4.jpg);
+    background-size: cover;
+}
+
+}
+.text4{
+    font-size: 52%;
+    font-family: serif;
+    background-color:  rgba(238, 235, 235, 0.377);
+    border-radius: 5px;
+}
+.boober{
+    height: 40vh;
+    width: 30vw;
+    border: solid 3px rgb(199, 130, 3);
+    animation-name: boober;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    margin-left: 15%;
+    border-radius: 10px;
+}
+
+@keyframes boober{
+    0%{
+        background-image: url(boober1.jpg);
+        background-size: cover;
+    }
+    50%{
+        background-image: url(boober2.jpg);
+        background-size: cover;
+    }
+    100%{
+        background-image: url(boober4.jpg);
+        background-size: cover;
+    }
+}
+.text5{
+    font-size: 52%;
+    font-family: serif;
+    background-color: rgba(238, 235, 235, 0.377);
+    border-radius: 5px;
+}
+.chopper{
+    height: 40vh;
+    width: 30vw;
+    border: solid 3px rgb(199, 130, 3);
+    animation-name: chopper;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    margin-left: 15%;
+    border-radius: 10px;
+}
+@keyframes chopper{
+    0%{
+        background-image: url(chopper2.jpg);
+        background-size: cover;
+    }
+    50%{
+        background-image: url(chopper3.jpg);
+        background-size: cover;
+    }
+    100%{
+        background-image: url(chopper4.jpg);
+        background-size: cover;
+    }
+}
+.ci{
+    font-size: 70%;
+    font-family: serif;
+   margin-left:15%;
+   background-color: rgba(238, 235, 235, 0.377);
+   border-radius: 5px;
+}
+.acheter1{
+    width: 50%;
+    color: rgb(199, 130, 3);
+    margin-left: 25%;
+    border-radius: 5px;
+}
+.cv{
+    font-size: 70%;
+    font-family: serif;
+   margin-left:15%;
+   background-color: rgba(238, 235, 235, 0.377);
+   border-radius: 5px;
+}
+.acheter2{
+    width: 50%;
+    color: rgb(199, 130, 3);
+    margin-left: 25%;
+    border-radius: 5px;
+}
+.botte{
+    font-size: 70%;
+    font-family: serif;
+   margin-left:15%;
+   background-color: rgba(238, 235, 235, 0.377);
+   border-radius: 5px;
+}
+.acheter3{
+    width: 50%;
+    color: rgb(199, 130, 3);
+    margin-left: 25%;
+    border-radius: 5px;
+}
+.botte1{
+    font-size: 70%;
+    font-family: serif;
+   margin-left:15%;
+   background-color: rgba(238, 235, 235, 0.377);
+   border-radius: 5px;
+}
+.acheter4{
+    width: 50%;
+    color: rgb(199, 130, 3);
+    margin-left: 25%;
+    border-radius: 5px;
+}
+.combi{
+    font-size: 70%;
+    font-family: serif;
+   margin-left:15%;
+   background-color: rgba(238, 235, 235, 0.377);
+   border-radius: 5px;
+}
+.acheter5{
+    width: 50%;
+    color: rgb(199, 130, 3);
+    margin-left: 25%;
+    border-radius: 5px;
+}
+.combi2{
+    font-size: 70%;
+    font-family: serif;
+   margin-left:15%;
+   background-color: rgba(238, 235, 235, 0.377);
+   border-radius: 5px;
+}
+.acheter5{
+    width: 50%;
+    color: rgb(199, 130, 3);
+    margin-left: 25%;
+    border-radius: 5px;
+}
+.fin{
+    background-color: black;
+    border-radius: 10px;
+}
+.end{
+    color:  rgb(199, 130, 3);
+    font-size: 150%;
+    font-family: serif;
+    padding-left: 37%;
+}
+.citation{
+    color:  white;
+    font-size: 196%;
+    font-family: serif;
+}
+.contact{
+    color:  rgb(199, 130, 3);
+    font-size: 200%;
+    font-family: serif;
+    padding-left: 45%;
+}
+.mg{
+    border-radius: 10px;
+    margin-top: 3%;
+}
+
+

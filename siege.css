@@ -1,0 +1,64 @@
+.en_tete{
+    width:100%;
+    height: 10%;
+    background-color: black;
+    border-radius: 10px;
+}
+#en_tete{
+    font-size: 300%;
+    color: rgb(199, 130, 3);
+    font-family: serif;
+    margin: 0%;
+    padding-left: 27%;
+
+}
+.espace{
+    background-color: white;
+    width: 100%;
+    height: 3px;
+}
+.map{
+    width: 100%;
+    border-radius:10px;
+  
+}
+a:hover{
+    color: white;
+}
+.fin{
+    background-color: black;
+    border-radius: 10px;
+}
+.end{
+    color:  rgb(199, 130, 3);
+    font-size: 150%;
+    font-family: serif;
+    padding-left: 37%;
+}
+.citation{
+    color: rgb(255, 255, 255);
+    font-size: 196%;
+    font-family: serif;
+    padding-left: 15%;
+}
+.contact{
+    color:  rgb(199, 130, 3);
+    font-size: 200%;
+    font-family: serif;
+    padding-left: 45%;
+}
+    
+.contenu{
+    display: flex;
+    flex-direction: row;
+}
+a{
+    color: rgb(199, 130, 3);
+    font-size: 200%;
+    font-family: serif;
+    text-decoration: none;
+    padding-left: 3%;
+}
+.acceuil{
+    margin-left: 66%;
+}
