@@ -1,3 +1,4 @@
+
 .menu{
     background-color: black;
     border-radius: 10px;
@@ -113,16 +114,16 @@ flex-basis:20vw;
 }
 @keyframes cafer{
     0%{
-        background-image: url(cafer1.JPG);
+        background-image: url(image/cafer1.JPG);
         background-size: cover;
     }
     50%{
-        background-image: url(cafer2.JPG);
+        background-image: url(image/cafer2.JPG);
         background-size: cover;
     }
    
     100%{
-        background-image: url(cafer4.JPG);
+        background-image: url(image/cafer4.JPG);
         background-size: cover;
     }
     
@@ -151,19 +152,19 @@ flex-basis:20vw;
 }
 @keyframes change{
 0%{
-    background-image: url(scrambler1.jpg);
+    background-image: url(image/scrambler1.jpg);
     background-size: cover;
 }
 33.33%{
-    background-image: url(scrambler2.jpg);
+    background-image: url(image/scrambler2.jpg);
     background-size: cover;
 }
 83.33%{
-    background-image: url(scrambler3.jpg);
+    background-image: url(image/scrambler3.jpg);
     background-size: cover;
 }
 100%{
-    background-image: url(scrambler4.jpg);
+    background-image: url(image/scrambler4.JPG);
     background-size: cover;
 }
 
@@ -187,15 +188,15 @@ flex-basis:20vw;
 
 @keyframes boober{
     0%{
-        background-image: url(boober1.jpg);
+        background-image: url(image/boober1.jpg);
         background-size: cover;
     }
     50%{
-        background-image: url(boober2.jpg);
+        background-image: url(image/boober2.jpg);
         background-size: cover;
     }
     100%{
-        background-image: url(boober4.jpg);
+        background-image: url(image/boober4.jpg);
         background-size: cover;
     }
 }
@@ -217,15 +218,15 @@ flex-basis:20vw;
 }
 @keyframes chopper{
     0%{
-        background-image: url(chopper2.jpg);
+        background-image: url(image/chopper2.jpg);
         background-size: cover;
     }
     50%{
-        background-image: url(chopper3.jpg);
+        background-image: url(image/chopper3.jpg);
         background-size: cover;
     }
     100%{
-        background-image: url(chopper4.jpg);
+        background-image: url(image/chopper4.jpg);
         background-size: cover;
     }
 }
